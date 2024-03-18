@@ -1,0 +1,22 @@
+.header {
+  //max-width: 1140px;
+  width: 100%;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background:  rgba(225,230,249,1);
+
+  &__title {
+    margin: 0;
+    padding: 15px 0;
+    color: #1A2238;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    //background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(225,230,249,1) 50%, rgba(255,255,255,1) 100%);
+  }
+}
